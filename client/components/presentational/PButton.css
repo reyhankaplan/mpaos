@@ -1,0 +1,15 @@
+.pbutton {
+	background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    padding: 0.4em;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 80%;
+    box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}

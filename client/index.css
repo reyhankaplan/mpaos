@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-image: linear-gradient(to right bottom,
+		#1482d6, #206daa, #29587f, #2c4357, #2a2e32);
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+*::selection {
+    background: transparent;
+    color: #f44;
+}

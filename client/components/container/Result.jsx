@@ -72,7 +72,7 @@ export default class Result extends React.Component {
 									</div>
 								)
 							}):
-							<span>sorry</span>
+							<span>Loading</span>
 						}
 					</div>
 					<div className="suggestions">
@@ -86,7 +86,7 @@ export default class Result extends React.Component {
 								</div>
 							)
 						}):
-						<span>sorry</span>
+						<span>Loading</span>
 					}
 					</div>
 				</div>

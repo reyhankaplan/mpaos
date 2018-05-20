@@ -1,23 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-html, body {
-	height: 100%;
-	margin: 0;
+:root {
+	font-family: 'Roboto', sans-serif;
+	/* variables */
+	--dark-color: #333;
+	--color-color: #f44;
+	--light-color: #f1f1f1;
 }
 
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+} 
+
 body {
-	background-image: linear-gradient(to right bottom,
-		#1482d6, #206daa, #29587f, #2c4357, #2a2e32);
-	background-repeat: no-repeat;
+	color: var(--dark-color);
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	text-align: center;
-	font-family: 'Alfa Slab One', cursive;
 }
 
 *::selection {
     background: transparent;
-    color: #f44;
+    color: var(--colored-text-color);
+}
+
+header h1 {
+	cursor: default;
+	color: var(--dark-color);
+	font-weight: bold; 
+}
+
+header {
+	position: absolute;
+	top: 3em;
+}
+
+#app {
+	position: absolute;
+	top: 9em;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--dark-color);
+	color: var(--light-color);
 }

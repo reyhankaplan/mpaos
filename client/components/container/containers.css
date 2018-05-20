@@ -1,0 +1,87 @@
+.search {
+	color: var(--dark-color);
+	width: 500px;
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.number-inputs {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.search-results{
+	z-index: 2;
+	background-color: white;
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+.navigation button {
+	margin: 1em;
+	font-size: larger;
+	font-family: inherit;
+    border: none;
+    background: transparent;
+    padding: 0.4em;
+    color: #333;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.navigation button:hover {
+	box-shadow: 0 1px 3px 1px rgba(0,0,0,0.4);
+}
+
+.chart {
+	align-self: flex-end;
+	height: 150px;
+	display: flex;
+}
+
+.chart span {
+	padding: 1em;
+    margin-top: -1.8em;
+}
+
+.fn {
+	width: 10px;
+	background-color: #f67;
+}
+
+.fp {
+	width: 10px;
+	background-color: #4e9;
+}
+
+.suggestions {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	max-height: 350px;
+	overflow-y: auto;
+	max-width: 450px;
+}
+.result {
+	width: 700px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.result .person {
+	display: flex;
+	justify-content: space-between;
+}
+
+.result .person span {
+	padding: 0.4em;
+}
+
+.result .person .p {
+	align-self: flex-start;
+}
+
+.person:hover {
+	background-color: #ccc;
+}

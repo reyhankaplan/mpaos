@@ -1,27 +1,37 @@
 input {
 	font-size: 1.2em;
-	font-family: 'Ubuntu';
+	font-family: inherit;
 	background: transparent;
 	border: none;
 	outline: none;
-	box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.2);
-	color: #f1f1f1;
-}
-
-input:focus {
-	box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.5);
+	color: var(--dark-color)
 }
 
 input::placeholder {
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.5);
 }
 
 input[type="number"] {
-	width: 4em;
+    padding: 0.2em;
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+	width: 4.5em;
+}
+
+input[type="number"]:focus {
+	box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+	width: 100%;
+    padding: 1em;
+    color: var(--dark-color);
+}
+
+input[type="text"]:focus {
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);	
 }
 
 label {
-	font-family: 'Alfa Slab One', cursive;
 	font-size: 1.1em;
 	margin-right: 0.5em;
 	text-align: right;
@@ -33,5 +43,5 @@ label {
 }
 
 .number-input {
-	padding: 0.5em;
+	padding: 3em;
 }

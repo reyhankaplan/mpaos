@@ -96,14 +96,14 @@ export default class Result extends React.Component {
 							this.props.changeLocation(2)
 						}}	
 						> 
-						Geri 
+						Back 
 					</button>
 					<button
 						onClick= {() => {
 							this.props.changeLocation(1)
 						}}	
 						> 
-						Yeni 
+						New 
 					</button>
 				</div>
 			</div>

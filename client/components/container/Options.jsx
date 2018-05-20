@@ -60,14 +60,14 @@ export default class Options extends React.Component {
 							this.props.changeLocation(1)
 						}}	
 						> 
-						Geri 
+						Back 
 					</button>
 					<button
 						onClick= {() => {
 							this.props.optionsSelected(this.values)
 						}}	
 						> 
-						Hesapla 
+						Calculate 
 					</button>
 				</div>
 			</div>
